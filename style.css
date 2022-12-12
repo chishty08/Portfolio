@@ -1,0 +1,289 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(port.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.nav h2 {
+    font-size: 33px;
+    letter-spacing: 1px;
+}
+
+.nav a {
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #f9004d;
+}
+
+span {
+    color: #f9004d;
+}
+
+.nav button {
+    background-color: #f9004d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px solid;
+    border-color: #f9004d;
+    border-radius: 30px;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+
+
+}
+
+.nav button:hover {
+    background-color: black;
+    color: white;
+    border-color: #f9004d;
+}
+
+/* .nav button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} */
+
+.content {
+    color: white;
+    position: relative;
+    /* left: 5%; */
+    padding-left: 60px;
+    top: 50px;
+    letter-spacing: 1px;
+}
+
+.content h4 {
+    font-size: 25px;
+    color: #cda3c8;
+}
+
+.content h1 {
+    font-size: 70px;
+
+}
+
+.content h3 {
+    font-size: 28px;
+}
+
+.sub-content input {
+    width: 35%;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+    padding: 15px 50px 15px 10px;
+}
+
+.sub-content button {
+    margin-left: -130px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #f9004d;
+    border-radius: 30px;
+    color: white;
+    background: #f9004d;
+    box-shadow: 2px 2px 5px black;
+    -webkit-box-shadow: 2px 2px 5px black;
+
+}
+
+#About {
+    background: #191919;
+    display: flex;
+    padding: 60px;
+
+}
+
+.Image img {
+    height: auto;
+    width: 430px;
+
+}
+
+.Bio {
+    color: white;
+    padding-left: 50px;
+    padding-top: 145px;
+
+
+}
+
+.Bio h1 {
+    font-size: 70px;
+}
+
+.Bio h3 {
+    font-size: 28px;
+}
+
+.Bio p {
+    color: #cda3c8;
+    line-height: 1.6;
+    justify-content: start;
+}
+
+.Bio button {
+    background-color: #f9004d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px solid;
+    border-color: #f9004d;
+    border-radius: 30px;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+}
+
+.Bio button:hover {
+    background-color: black;
+    color: white;
+    border-color: #f9004d;
+
+}
+
+#Services {
+    background: #101010;
+    padding: 60px;
+
+}
+
+#Services h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+.cards {
+
+    display: flex;
+
+}
+
+/* .cards img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+.cards h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.service-box1 {
+    padding: 30px;
+    margin-right: 50px;
+    background: rgb(25, 25, 25);
+    color: #cda3c8;
+    border-radius: 30px;
+
+}
+
+.service-box2 {
+    padding: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background: rgb(25, 25, 25);
+    color: #cda3c8;
+    border-radius: 30px;
+
+}
+
+.service-box3 {
+    padding: 30px;
+    margin-left: 50px;
+    background: rgb(25, 25, 25);
+    color: #cda3c8;
+    border-radius: 30px;
+
+}
+
+.cards p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cards button {
+    background-color: #f9004d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px solid;
+    border-color: #f9004d;
+    border-radius: 30px;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+}
+
+.cards button:hover {
+    background-color: black;
+    color: white;
+    border-color: #f9004d;
+}
+
+.hire{
+    background: #191919;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.hire h1{
+    font-size: 28px;
+}
+.hire button {
+    background-color: #f9004d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px solid;
+    border-color: #f9004d;
+    border-radius: 30px;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+}
+.hire button:hover {
+    background-color: black;
+    color: white;
+    border-color: #f9004d;
+}
+.footer{
+    text-align: center;
+    background-color: #101010;
+    color: white;
+    padding: 70px;
+}
+.footer img{
+    margin-right: 10px;
+}
+.footer p{
+    padding-top: 20px;
+    color: #f9004d;
+}
